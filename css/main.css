@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+}
 
 .team_section {
     background-color: cornflowerblue;
@@ -26,7 +29,23 @@
 }
 .team_item h3 {
     text-transform: capitalize;
+    text-decoration-line: underline;
+    text-decoration-color: orange;
+    text-decoration-style: solid;
+    text-underline-offset: 7px;
 }
 .team_item h4 {
     text-transform: lowercase;
+}
+.team_item .old_price {
+
+     text-decoration: line-through;
+     color:red;
+}
+
+.team_item .new_price{
+    color:green;
+}
+.price{
+    margin:5px 0;
 }
