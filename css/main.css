@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -6,7 +7,9 @@
 a{
     text-decoration: none;
 }
-
+html {
+    font-size: 16px;
+}
 .team_section {
     background-color: cornflowerblue;
     text-align: center;
@@ -33,18 +36,25 @@ a{
     text-decoration-color: orange;
     text-decoration-style: solid;
     text-underline-offset: 7px;
+ font-family: "Lato", sans-serif;
 }
 .team_item h4 {
     text-transform: lowercase;
+      font-family: "Roboto", sans-serif;
 }
 .team_item .old_price {
 
      text-decoration: line-through;
      color:red;
+     font-size: 13px;
+     font-weight: 100;
 }
 
 .team_item .new_price{
     color:green;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 900;
 }
 .price{
     margin:5px 0;
