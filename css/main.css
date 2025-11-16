@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.team_section {
+    background-color: cornflowerblue;
+    text-align: center;
+}
+
+.team_items{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+}
+
+.team_item{
+    width:calc((100% - 40px )/3);
+    border:1px solid red
+}
+
+.team_section h2 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.team_item h3 {
+    text-transform: capitalize;
+}
+.team_item h4 {
+    text-transform: lowercase;
+}
